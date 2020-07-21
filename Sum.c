@@ -17,7 +17,7 @@ int sum (int n)
 {
     if (n != 0)
     {
-        return (num % 10 + sum (num / 10));
+        return (n % 10 + sum (n / 10));
     }
     else
     {
